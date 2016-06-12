@@ -917,7 +917,7 @@ typedef struct optionstruct
     boolean schreier;         /* use random schreier method */
     void *extra_options;      /* arbitrary extra options */
 #ifdef NAUTY_IN_MAGMA
-    boolean print_stats;      /* CAYLEY specfic - GYM Sep 1990 */
+    boolean print_stats;      /* CAYLEY specific - GYM Sep 1990 */
     char *invarprocname;      /* Magma - no longer global sjc 1994 */
     int lab_h;                /* Magma - no longer global sjc 1994 */
     int ptn_h;                /* Magma - no longer global sjc 1994 */
